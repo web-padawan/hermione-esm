@@ -1,0 +1,19 @@
+{
+  "name": "gemini-esm",
+  "version": "0.1.0",
+  "description": "A gemini plugin that starts express server with bare module specifiers transform before running tests.",
+  "repository": "https://github.com/web-padawan/gemini-esm",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "gemini",
+    "gemini-plugin",
+    "testing"
+  ],
+  "author": "Serhii Kulykov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-transform-bare-module-specifiers": "^1.0.2"
+  }
+}
