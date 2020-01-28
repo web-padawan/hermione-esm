@@ -11,7 +11,7 @@ module.exports = function(gemini, opts) {
       hostname: opts.hostname || '127.0.0.1',
       rootDir: opts.root || process.cwd(),
       nodeResolve: true,
-      compatibility: 'min'
+      compatibility: opts.compatibility || 'none'
     });
 
     return new Promise(resolve => {
