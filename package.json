@@ -1,6 +1,6 @@
 {
   "name": "hermione-esm",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Serhii Kulykov",
   "license": "MIT",
   "description": "A hermione plugin that starts es-dev-server before running tests.",
