@@ -1,9 +1,9 @@
 const { startServer, createConfig } = require('es-dev-server');
 
-module.exports = function(gemini, opts) {
+module.exports = (hermione, opts) => {
   let server;
 
-  gemini.on('startRunner', function(runner) {
+  hermione.on(hermione.events.RUNNER_START, () => {
     console.log('Starting server ...');
 
     const cfg = createConfig({
@@ -23,7 +23,7 @@ module.exports = function(gemini, opts) {
     });
   });
 
-  gemini.on('endRunner', function(runner, data) {
+  hermione.on(hermione.events.RUNNER_END, () => {
     console.log('Server closed.');
     return server.close();
   });
