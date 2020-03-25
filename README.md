@@ -1,15 +1,20 @@
-# gemini-esm
+# hermione-esm
 
-This is a `gemini` plugin that starts express server with bare module specifiers transform before running tests.
+This is a `hermione` plugin that starts express server with bare module specifiers transform before running tests.
 
 ## Installation
-`npm install gemini-esm`
+`npm install hermione-esm`
 
 ## Configuration
 
-```yml
-system:
-    plugins:
-      esm:
-        port: 8081
+```js
+module.exports = {
+  // ...
+  plugins: {
+    'hermione-esm': {
+      port: 8081
+    }
+  },
+  //...
+}
 ```
