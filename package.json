@@ -1,17 +1,17 @@
 {
-  "name": "gemini-esm",
+  "name": "hermione-esm",
   "version": "0.2.0",
-  "description": "A gemini plugin that starts express server with bare module specifiers transform before running tests.",
-  "repository": "https://github.com/web-padawan/gemini-esm",
+  "author": "Serhii Kulykov",
+  "license": "MIT",
+  "description": "A hermione plugin that starts es-dev-server before running tests.",
+  "repository": "https://github.com/web-padawan/hermione-esm",
   "main": "index.js",
   "scripts": {},
   "keywords": [
-    "gemini",
-    "gemini-plugin",
+    "hermione",
+    "hermione-plugin",
     "testing"
   ],
-  "author": "Serhii Kulykov",
-  "license": "MIT",
   "dependencies": {
     "es-dev-server": "^1.36.4"
   }
