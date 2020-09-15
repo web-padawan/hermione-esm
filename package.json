@@ -13,6 +13,6 @@
     "testing"
   ],
   "dependencies": {
-    "es-dev-server": "^1.36.4"
+    "@web/dev-server": "^0.0.10"
   }
 }
